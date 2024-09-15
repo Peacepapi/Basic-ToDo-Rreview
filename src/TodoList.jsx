@@ -1,12 +1,8 @@
 import React from 'react'
 import TodoCard from './TodoCard';
 
-export default function TodoList() {
-    let todos = [
-        "eat",
-        "Sleep",
-        "Workout"
-    ];
+export default function TodoList({todos}) {
+
 
   return (
     <ul className='main'>
